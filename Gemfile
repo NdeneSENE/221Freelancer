@@ -13,8 +13,7 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'bulma-rails', '~> 0.7.4'
 gem 'bulma-extensions-rails', '~> 1.0.30 ' 
-
-
+gem 'devise', '=4.7.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Freelancer</title>
+    <title>221Freelancer</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,6 +11,9 @@
 
   <body>
   <%= render 'shared/navbar' %>
+
+    <p class="notice"><%= notice %></p> 
+    <p class="alert"><%= alert %></p> 
     <%= yield %>
   </body>
 </html>
