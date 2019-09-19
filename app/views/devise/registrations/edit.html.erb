@@ -26,7 +26,7 @@
                 <% end %>
 
                 <div class="field">
-                  <%= f.label :"Mot de passe", class: "label" %>
+                  <%= f.label :"Nouveau mot de passe", class: "label" %>
                   <%= f.password_field :password, autocomplete: "new-password", class: "input"  %>
                   <% if @minimum_password_length %>
                     <br />
@@ -39,15 +39,15 @@
                 </div>
 
                 <div class="field">
-                  <%= f.label :"Nouveau mot de passe" , class: "label"%>
+                  <%= f.label :"Mot de passe" , class: "label"%>
                   <%= f.password_field :current_password, autocomplete: "current-password", class: "input"  %>
                 </div>
 
                 <div class="field">
                   <%= f.submit "Modifier", class: "button is-danger is-fullwidth" %>
-                </div><br/>
+                </div>
               <% end %>
-              <%= link_to "Retour", :back, class: "button is-fullwidth" %>
+              <%= link_to "Retour", :back, class: "button is-fullwidth m-t-10" %>
             </div>
         </div>
       </div>
